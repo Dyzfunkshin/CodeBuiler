@@ -13,6 +13,10 @@ public class Function : MonoBehaviour, IFunction
 
     #region Properties
 
+	public IType ReturnType{ get; set; }
+
+	public object ReturnValue{ get; set; }
+
     #endregion
 
     #region Unity Overrides

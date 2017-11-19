@@ -9,7 +9,9 @@ public class Variable : MonoBehaviour,IVariable
 
     #region Properties
 
-    public IType Value { get; set; }
+    public object Value { get; set; }
+
+	public IType Type{ get; set; }
 
     #endregion
 
