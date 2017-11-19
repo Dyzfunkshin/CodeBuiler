@@ -1,9 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class And : MonoBehaviour, IComparison 
+public class And : MonoBehaviour, IComparison
 {
-	public bool Evaluate(){return true;}
+    #region Constants
 
-	public bool Compile(){return true;}
+    #endregion
+
+    #region Fields
+
+    #endregion
+
+    #region Properties
+
+    #endregion
+
+    #region Unity Overrides
+
+    #endregion
+
+    #region Methods
+
+    public bool Evaluate() { return true; }
+
+    public bool Compile() { return true; }
+
+    #endregion
 }

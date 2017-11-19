@@ -3,5 +3,19 @@ using System.Collections;
 
 public class Boolean : MonoBehaviour, IType 
 {
-	public bool Compile (){return true;}
+    #region Fields
+
+    #endregion
+
+    #region Properties
+
+    public bool? Value { get; set; }
+
+    #endregion
+
+    #region Methods
+
+    public bool Compile() { return Value != null; }
+
+    #endregion
 }

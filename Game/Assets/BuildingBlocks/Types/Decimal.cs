@@ -1,7 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Decimal : MonoBehaviour, IType 
+public class Decimal : MonoBehaviour, IType
 {
-	public bool Compile (){return true;}
+    #region Fields
+
+    #endregion
+
+    #region Properties
+
+    public float? Value { get; set; }
+
+    #endregion
+
+    #region Methods
+
+    public bool Compile() { return Value != null; }
+
+    #endregion
 }

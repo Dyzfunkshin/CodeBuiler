@@ -1,7 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class String : MonoBehaviour, IType 
+public class String : MonoBehaviour, IType
 {
-	public bool Compile (){return true;}
+    #region Fields
+
+    #endregion
+
+    #region Properties
+
+    public string Value { get; set; }
+
+    #endregion
+
+    #region Methods
+
+    public bool Compile() { return Value != null; }
+
+    #endregion
 }

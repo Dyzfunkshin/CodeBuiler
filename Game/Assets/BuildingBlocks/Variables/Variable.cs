@@ -1,7 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Variable : MonoBehaviour,IVariable 
+public class Variable : MonoBehaviour,IVariable
 {
-	public bool Compile(){return true;}
+    #region Fields
+
+    #endregion
+
+    #region Properties
+
+    public IType Value { get; set; }
+
+    #endregion
+
+    #region Methods
+
+    public bool Compile() { return true; }
+
+    #endregion
 }

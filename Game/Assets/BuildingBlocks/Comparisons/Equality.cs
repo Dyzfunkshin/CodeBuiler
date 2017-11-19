@@ -3,7 +3,27 @@ using System.Collections;
 
 public class Equality : MonoBehaviour, IComparison
 {
-	public bool Evaluate(){return true;}
+    #region Constants
 
-	public bool Compile(){return true;}
+    #endregion
+
+    #region Fields
+
+    #endregion
+
+    #region Properties
+
+    #endregion
+
+    #region Unity Overrides
+
+    #endregion
+
+    #region Methods
+
+    public bool Evaluate() { return true; }
+
+    public bool Compile() { return true; }
+
+    #endregion
 }

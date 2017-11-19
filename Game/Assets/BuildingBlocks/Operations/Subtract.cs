@@ -3,7 +3,27 @@ using System.Collections;
 
 public class Subtract : MonoBehaviour, IOperation 
 {
-	public object Evaluate(){return null;}
+    #region Constants
 
-	public bool Compile(){return true;}
+    #endregion
+
+    #region Fields
+
+    #endregion
+
+    #region Properties
+
+    #endregion
+
+    #region Unity Overrides
+
+    #endregion
+
+    #region Methods
+
+    public object Evaluate() { return null; }
+
+    public bool Compile() { return true; }
+
+    #endregion
 }
