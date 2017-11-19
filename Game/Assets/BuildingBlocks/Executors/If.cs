@@ -4,17 +4,31 @@ using System.Collections.Generic;
 
 public class If : MonoBehaviour, IExecutor
 {
-	#region Fields
+    #region Constants
+    
+    #endregion
 
-	public IBuildingBlock comparer;
+    #region Fields
+
+    public IBuildingBlock comparer;
 
 	public List<IExecutable> ifExecutables;
 
 	public List<IExecutable> elseExecutables;
 
-	#endregion
+    #endregion
 
-	public void Execute()
+    #region Properties
+
+    #endregion
+
+    #region Unity Overrides
+
+    #endregion
+
+    #region Methods
+
+    public void Execute()
 	{
 		if(IfCheck())
 		{
@@ -135,4 +149,6 @@ public class If : MonoBehaviour, IExecutor
 
 		return true;
 	}
+
+    #endregion
 }
